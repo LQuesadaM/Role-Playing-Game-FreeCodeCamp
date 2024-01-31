@@ -1,14 +1,14 @@
 :root {
     --whiteColor: #fff;
-    --bgColor: #0a0a23;
+    --BlackRussian: #0a0a23;
 }
 
 body {
-    background-color: var(--bgColor);
+    background-color: var(--BlackRussian);
 }
 
 #text {
-    background-color: var(--bgColor);
+    background-color: var(--BlackRussian);
     color: var(--whiteColor);
     padding: 10px;
 }
@@ -23,4 +23,9 @@ body {
     padding: 10px;
 }
 
-
+#stats, 
+#constrols {
+    border: 1px solid var(--BlackRussian);
+    color: var(--BlackRussian);
+    padding: 5px;
+}
