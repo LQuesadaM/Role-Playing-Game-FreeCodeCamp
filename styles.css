@@ -40,3 +40,15 @@ body {
     background-color: var(--shadeRed);
     color: var(--whiteColor);
 }
+
+.stat {
+    padding-right: 10px;
+}
+
+button {
+    cursor: pointer;
+    color: var(--BlackRussian);
+    background-color: #feac32;
+    background-image: linear-gradient(#fecc4c, #ffac33);
+    border: 3px solid #feac32;
+}
