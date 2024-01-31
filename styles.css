@@ -1,6 +1,7 @@
 :root {
     --whiteColor: #fff;
     --BlackRussian: #0a0a23;
+    --shadeRed: #c70d0d;
 }
 
 body {
@@ -28,4 +29,14 @@ body {
     border: 1px solid var(--BlackRussian);
     color: var(--BlackRussian);
     padding: 5px;
+}
+
+
+#monsterStats {
+    display: none;
+
+    border: 1px solid var(--BlackRussian);
+    padding: 5px;
+    background-color: var(--shadeRed);
+    color: var(--whiteColor);
 }
