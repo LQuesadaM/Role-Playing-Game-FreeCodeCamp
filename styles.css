@@ -12,3 +12,15 @@ body {
     color: var(--whiteColor);
     padding: 10px;
 }
+
+
+#game {
+    max-width: 500px;
+    max-height: 400px;
+    background-color: var(--whiteColor);
+    color: #fff;
+    margin: 30px auto 0px;
+    padding: 10px;
+}
+
+
