@@ -1,0 +1,14 @@
+:root {
+    --whiteColor: #fff;
+    --bgColor: #0a0a23;
+}
+
+body {
+    background-color: var(--bgColor);
+}
+
+#text {
+    background-color: var(--bgColor);
+    color: var(--whiteColor);
+    padding: 10px;
+}
