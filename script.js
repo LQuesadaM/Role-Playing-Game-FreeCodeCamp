@@ -38,6 +38,24 @@ const weapons = [
     }
 ];
 
+const monsters = [
+    {
+        name: "slime",
+        level: 2,
+        health: 15
+    },
+    {
+        name: "fanged beast",
+        level: 8,
+        health: 60
+    },
+    {
+        name: "dragon",
+        level: 20,
+        health: 300
+    }
+];
+
 const locations = [
     {
         name: "town square",
@@ -133,14 +151,29 @@ function sellWeapon () {
 
 /* battle function */
 
-function fightDragon () {
-    console.log("Fighting dragon.");
-}
-
 function fightSlime () {
-    console.log("Fighting slime");
+    fighting = 0;
+    goFight;
 } 
 
 function fightBeast () {
-    console.log("Fighting Beast");
+    fighting = 1;
+    goFight();
 } 
+
+function fightDragon () {
+    fighting = 2;
+    goFight();
+}
+
+function goFight () {
+    
+}
+
+function attack () {
+
+}
+
+function dodge () {
+    
+}
